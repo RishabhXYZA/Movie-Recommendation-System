@@ -25,6 +25,41 @@ flowchart TD
     E --> F[Flask Backend]
     F --> G[Web Interface]
 ```
+📂 Project Structure
+```
+Movie Recommendation System/
+│
+├── Docker/                          
+│   └── Dockerfile                   
+│
+├── app/                             
+│   ├── app.py                       
+│   ├── recommender.py               
+│   └── tmdb_api.py                  
+│
+├── templates/                       
+│   ├── base.html                    
+│   ├── home.html                    
+│   ├── movie.html                   
+│   └── about.html                   
+│
+├── static/                          
+│   ├── css/
+│   │   └── style.css                
+│   │
+│   ├── js/
+│   │   ├── sidebar.js               
+│   │   └── search.js                
+│   │
+│   └── images/
+│       ├── github.png               # GitHub icon
+│       └── linkedin.png             # LinkedIn icon
+│
+├── movie_dict.pkl                   
+├── requirements.txt                
+├── README.md                        
+```
+
 
 ## ✨ Features
 
