@@ -116,8 +116,8 @@ Follow these steps to run CineSense locally.
 1. **Clone the repository.**
 
    ```bash
-    git clone https://github.com/RishabhXYZA/CineSense.git
-    cd CineSense
+    git clone https://github.com/RishabhXYZA/Movie Recommendation System.git
+    cd Movie_Recommendation_System
    ```
 
 2. **Create a virtual environment.**  
@@ -197,7 +197,7 @@ You can customize CineSense based on your needs:
 - **Deployment settings**
   Configure Docker and Cloud Run parameters.
 
-  ## 🤝 Contributing
+## 🤝 Contributing
 
 Contributions that improve features, performance, or documentation are welcome. Please discuss significant changes in an issue before opening a pull request.
 
