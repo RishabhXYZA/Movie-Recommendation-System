@@ -194,3 +194,10 @@ Contributions that improve features, performance, or documentation are welcome. 
 ## 🔗 Try it LIVE
 https://movie-recommender-system-1-228631845917.asia-south1.run.app
 
+## 👨‍💻 Author
+
+**Rishabh Bhasin**
+| Python | Data Science | Machine Learning Enthusiast 🚀
+
+GitHub: [RishabhXYZA](https://github.com/RishabhXYZA)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rishabh%20Bhasin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/)
