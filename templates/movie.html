@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="movie-details">
+
+    <div class="poster-box">
+        <img src="{{ movie.poster }}">
+    </div>
+
+    <div class="info-box">
+        <h2>{{ movie.title }}</h2>
+
+        <p><strong>Rating:</strong> ⭐ {{ movie.vote_average }}/10</p>
+        <p><strong>📅 Release:</strong> {{ movie.release_year }}</p>
+        <p><strong>⏱ Runtime:</strong> {{ movie.runtime }} min</p>
+        <p><strong>🎭 Genres:</strong> {{ movie.genres }}</p>
+
+        <div class="overview-box">
+            <p class="About-title">📖 About:</p>
+            <p class="overview-text">
+                {{movie.overview}}
+            </p>
+        </div>
+
+        <p><strong>🎤 Cast:</strong> {{ movie.cast }}</p>
+        <p><strong>🎬 Director:</strong> {{ movie.director }}</p>
+    </div>
+</div>
+
+<h3 class="section-title">🎞️ More Like This</h3>
+
+<div class="recommend-grid">
+    {% for rec in recommendations %}
+    <a href="/movie/{{ rec.id }}" class="movie-card">
+        <img src="{{ rec.poster }}">
+        <p class="movie-title">{{ rec.title }}</p>
+    </a>
+    {% endfor %}
+</div>
+
+{% endblock %}

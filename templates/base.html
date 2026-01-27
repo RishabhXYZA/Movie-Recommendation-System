@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CineSense 🎥</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- ======================
+         SIDEBAR
+    ======================= -->
+    <div class="sidebar" id="sidebar">
+
+        <div class="sidebar-header">
+            <h2 class="app-name">🎥 CineSense</h2>
+            <span class="close-btn" onclick="closeSidebar()">✕</span>
+        </div>
+
+        <a href="/" class="side-link">🏠 Home</a>
+        <a href="/about" class="side-link">ℹ️ About</a>
+
+    </div>
+
+    <!-- ======================
+         MAIN CONTENT
+    ======================= -->
+    <div class="main-content">
+
+        <!-- NAVBAR -->
+        <div class="navbar">
+
+            <!-- MOBILE MENU BUTTON -->
+            <div class="menu-btn" onclick="openSidebar()">☰</div>
+
+            {% if request.path == "/" %}
+            <div class="search-container">
+                <input
+                    type="text"
+                    id="search-input"
+                    placeholder="🔍 Search movie..."
+                    autocomplete="off"
+                >
+                <div id="suggestions"></div>
+            </div>
+            {% endif %}
+
+        </div>
+
+        <!-- PAGE CONTENT -->
+        <div class="container">
+            {% block content %}{% endblock %}
+        </div>
+
+    </div>
+
+</div>
+
+<!-- JS FILES -->
+<script src="{{ url_for('static', filename='js/search.js') }}"></script>
+<script src="{{ url_for('static', filename='js/sidebar.js') }}"></script>
+
+</body>
+</html>
+

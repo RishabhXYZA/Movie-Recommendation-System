@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- ===============================
+     ABOUT APPLICATION
+================================ -->
+<div class="about-app-section">
+
+    <h2 class="section-title">ℹ️ About CineSense</h2>
+
+    <p class="about-app-text">
+        CineSense 🎥 is an AI-powered movie recommendation system that suggests
+        movies using content-based filtering and cosine similarity.
+        <br><br>
+        The system analyzes movie metadata and uses machine learning techniques
+        to recommend films that are closely related to the selected movie.
+        <br><br>
+        By integrating real-time data from the TMDB API, CineSense provides rich
+        movie details including posters, ratings, cast, crew, genres, runtime,
+        and release year through a clean and interactive web interface.
+    </p>
+
+</div>
+
+<hr class="about-divider">
+
+<!-- ===============================
+     ABOUT AUTHOR
+================================ -->
+<h2 class="about-creator-title">ABOUT CREATOR</h2>
+
+<div class="author-card">
+    <div class="about-wrapper">
+
+        <!-- LEFT: PROFILE IMAGE -->
+        <div class="about-image">
+            <img src="{{ url_for('static', filename='images/WhatsApp Image 2026-01-26 at 19.32.51.png') }}" alt="Author">
+        </div>
+
+        <!-- RIGHT: AUTHOR INFO -->
+        <div class="about-content">
+
+            <h2 class="author-name">Rishabh Bhasin</h2>
+
+            <p class="author-text">
+                Hey there! Glad you visited CineSense 🎥.
+                <br><br>
+                I am a pre-final year student currently preparing for a career in Data Science.
+                I enjoy building real-world projects that combine machine learning,
+                data analysis, and intelligent systems.
+                <br><br>
+                I am particularly interested in understanding recommendation systems
+                and transforming complex ideas into practical and user-friendly
+                applications.
+                <br><br>
+                Feel free to connect with me through the links below.
+            </p>
+
+            <div class="social-links">
+                <a href="https://github.com/RishabhXYZA" target="_blank">
+                    <img src="{{ url_for('static', filename='images/GitHub_Invertocat_White.png')}}" alt="GitHub">
+                </a>
+
+                <a href="https://www.linkedin.com/in/rishabh-bhasin-3b3b452a1/" target="_blank">
+                    <img src="{{ url_for('static', filename='images/InBug-White.png')}}" alt="LinkedIn">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
+
