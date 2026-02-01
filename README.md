@@ -226,9 +226,6 @@ Contributions that improve features, performance, or documentation are welcome. 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud%20Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
-## 🔗 Try it LIVE
-https://movie-recommender-system-1-228631845917.asia-south1.run.app
-
 ## 👨‍💻 Author
 
 **Rishabh Bhasin**
