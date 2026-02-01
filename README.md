@@ -224,7 +224,7 @@ Contributions that improve features, performance, or documentation are welcome. 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud%20Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Zeabur](https://img.shields.io/badge/Zeaburn-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
 ## 👨‍💻 Author
 
