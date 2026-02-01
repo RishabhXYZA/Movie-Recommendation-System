@@ -226,6 +226,9 @@ Contributions that improve features, performance, or documentation are welcome. 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Zeabur](https://img.shields.io/badge/Zeabur-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
+## TRY it Live
+cinesense.zeabur.app
+
 ## 👨‍💻 Author
 
 **Rishabh Bhasin**
