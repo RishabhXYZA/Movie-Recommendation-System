@@ -77,7 +77,7 @@ CineSense provides intelligent and interactive movie recommendations.
 
 - 🌐 Interactive web interface built with HTML, CSS, and JavaScript
 
-- ☁️ Cloud-deployed application using Docker and Zeabur 
+- ☁️ Cloud-deployed application using Docker and Vercel 
 
 ```card
 {
@@ -227,7 +227,7 @@ Contributions that improve features, performance, or documentation are welcome. 
 ![Vercel](https://img.shields.io/badge/Vercel-4285F4?style=for-the-badge&logo=vercel&logoColor=black)
 
 ## TRY it Live 🚀
-https://cinesense.zeabur.app/
+https://movie-recommender-system-one-gules.vercel.app/
 
 ## 👨‍💻 Author
 
