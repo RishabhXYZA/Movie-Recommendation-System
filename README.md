@@ -232,7 +232,6 @@ https://movie-recommender-system-one-gules.vercel.app/
 ## 👨‍💻 Author
 
 **Rishabh Bhasin**
-| Python | Data Science | Machine Learning Enthusiast 🚀
 
 [![GitHub](https://img.shields.io/badge/GitHub-RishabhXYZA-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RishabhXYZA)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rishabh%20Bhasin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishabh-bhasin-3b3b452a1/)
